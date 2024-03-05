@@ -89,16 +89,7 @@
           result += '<a href="room/'+row.id+'/edit"'
           + ' class="text-primary">Edit</a>'
 
-          + ' <div class="bullet"></div>'
-
-          + ' <a href="javascript:;" data-id="'+row.id+'" '
-          + ' data-title="Hapus"'
-          + ' data-body="Yakin ingin menghapus ini?"'
-          + ' class="text-danger"'
-          + ' id="delete-btn"'
-          + ' name="delete-btn">Hapus'
-          + ' </a>'
-          + '</div>';
+          + ' <div class="bullet"></div>';
 
           return result;
             
